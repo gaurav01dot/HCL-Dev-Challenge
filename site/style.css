@@ -33,6 +33,7 @@ tr:nth-child(even) {
 td {
     width: 130px;
     text-align: right;
+    word-break: break-all;
 }
 
 th {
@@ -41,5 +42,6 @@ th {
     background-color: black;
 }
 td:nth-child(1) {
-    text-align: center
+    text-align: center;
+    min-width:75px;
 }
